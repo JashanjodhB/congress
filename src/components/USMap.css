@@ -1,0 +1,8 @@
+body{
+  background-color: #3987c9;
+}
+text {
+  pointer-events: none;
+  font-size: 12px;
+  fill: #000;
+}
