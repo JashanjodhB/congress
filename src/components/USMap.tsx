@@ -1,7 +1,7 @@
 import "./USMap.css";
 import {ComposableMap,Geographies,Geography,Marker,ZoomableGroup} from 'react-simple-maps'
 import {useMemo, useState} from "react";
-import { geoCentroid, geoPath } from "d3-geo";
+import { geoCentroid } from "d3-geo";
 import StateMap from "./StateMap";
 
 const geoUrl="https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"

@@ -12,7 +12,7 @@ const StateMap = ({state,onBack,members}:{state:string; onBack:()=>void; members
     const [features,setFeatures]=useState<any[]>([])
     const [center,setCenter]= useState<[number,number]>([-98,38]);
     const [markers,setMarkers]= useState<any[]>([]);
-    const [selectedMember, setSelectedMember] = useState<any | null>(null); 
+    const [setSelectedMember] = useState<any | null>(null); 
 
 
     useEffect(()=>{
